@@ -47,8 +47,8 @@ void mystery3(auto& Data)
 	for( int i = 0; i < Data.size( ) ; i++)
 	{
 		for( int j = 0; j < Data.size( ) ; j++)
-		if( Data[j]< Data[i]
-			swap( Data[i], Data[j]);
+		if( Data[j]< Data[i])
+			swap(Data[i], Data[j]);
 		print(Data);
 	}
 }
